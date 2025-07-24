@@ -1,0 +1,1 @@
+alert("Harici bir dosyadan gelen alarm mesajı!");
