@@ -1,0 +1,2 @@
+# JavaScriptOdevleri
+JavaScript çalışmalı
