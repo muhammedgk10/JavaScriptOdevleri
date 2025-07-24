@@ -1,0 +1,55 @@
+/* Genel gövde stilleri */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Başlık */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Butonlar */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Personel bilgileri */
+#personelTakip {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Her personel için satır */
+#personelTakip p {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#personelTakip p:last-child {
+    border-bottom: none;
+}
