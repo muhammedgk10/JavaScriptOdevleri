@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Projesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="genelCerceve">
+        
+        <!-- Üst Mesaj Girişi -->
+        <div id="mesajGirisi">
+            <img src="images/resim.jpg">
+            <input type="text" id="mesaj">
+            <input type="button" value="Mesaj Gönder" onclick="mesajGonder()">
+        </div>
+
+        <hr>
+
+        <!-- Mesajların Listelendiği Alan -->
+        <div id="mesajKutulari"></div>
+
+        <hr>
+
+        <!-- Alt Mesaj Girişi -->
+        <div id="mesajGirisiAlt">
+            <img src="images/resim1.PNG">
+            <input type="text" id="mesajAlt">
+            <input type="button" value="Mesaj Gönder" onclick="mesajAl()">
+        </div>
+
+    </div>
+
+    <script src="mesaj.js" defer></script>
+</body>
+</html>

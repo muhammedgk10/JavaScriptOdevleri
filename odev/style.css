@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(229, 221, 213); 
+    font-weight: bold;
+}
+
+#genelCerceve {
+    background-color: rgb(220, 248, 198); 
+    border-radius: 10px;
+    width: 400px; 
+    height: 100%; 
+    margin: auto;
+}
+
+#mesajGirisi, #mesajGirisiAlt {
+    background-color: #25D366; 
+    border-radius: 10px;
+    width: 400px; 
+    height: 70px;
+}
+
+#mesajGirisi img, #mesajGirisiAlt img {
+    width: 50px; 
+    height: 50px; 
+    float: left;
+    margin-left: 30px; 
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+#mesajGirisi input, #mesajGirisiAlt input {
+    margin-top: 30px; 
+    margin-left: 10px;
+}
+
+#mesajKutulari {
+    background-color: #DCF8C6; 
+    border-radius: 3px;
+    width: 380px; 
+    height: auto; 
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+/* Sağdan Gelen Mesajlar */
+.gidenMesaj {
+    border-bottom: 2px #DCF8C6;
+    text-align: right;
+}
+
+.gidenMesaj img {
+    width: 20px; 
+    height: 20px; 
+    margin: 5px 5px 0px 5px; 
+    border-radius: 50px; 
+}
+
+/* Soldan Gelen Mesajlar */
+.gelenMesaj {
+    border-bottom: 2px #DCF8C6;
+    text-align: left;
+}
+
+.gelenMesaj img {
+    width: 20px; 
+    height: 20px; 
+    margin: 5px 5px 0px 5px; 
+    border-radius: 50px; 
+}
+
+#tarih {
+    color: #000000; 
+    font-size: 15px; 
+    margin: 5px 10px;
+}
